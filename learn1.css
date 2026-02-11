@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+#count {
+    font-size: 2em;
+    color : red
+}
+
+h2 {
+    color: rgb(229, 13, 13);
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+  background-image: url('assets/bgr1.png');
+  background-size: cover;        /* Cover entire area */
+  background-repeat: no-repeat;  /* Don't tile the image */
+  background-position: center;   /* Center the image */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: #153f68;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+
+.class1 {
+    background-color: #0b1eed;
+    color: white;
+    padding: 10px 20px;
+    position: bottom;
+    
+}
+

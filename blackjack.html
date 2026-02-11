@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <title> BLACKJACK ONLINE 1.0 </title>
+  <link rel="stylesheet" href="blackjack.css"/>
+</head>
+<body>
+
+ <header id = deck>
+  <h1> BLACKJACK ONLINE 1.0</h1>
+   </header>
+<header>
+  <div>
+        <h2> Player Cards</h2>
+        <h3 id = player-cards>__        __         __        __</h3>
+    </div>
+   <div>
+      <h2> Dealer Cards</h2>
+      <h3 id = dealer-cards>08         10       __         __</h3>
+    </div><div>
+        <h2> Friend Cards</h2>
+        <h3 id = friend-cards>__        __         __        __</h3>
+    </div>
+    <div>
+        <h2> Friend Cards</h2>
+        <h3 id = friend-cards>__        __         __        __</h3>
+    </div>
+
+</header>
+
+<div id = controls>
+   <button id="hit-btn" onclick="hit()">HIT</button>
+   <button id="stop-btn" onclick="stay()">STAY</button>
+   <button id="new-game-btn" onclick="restartGame()">NEW GAME</button>
+   <button id="join-btn" onclick="join()">JOIN</button>
+   <button id="leave-btn" onclick="leave()">LEAVE</button>
+   <div id = result>
+     <p id = result-text>Pop Up will show results</p>
+</div>
+<div id = box1>
+     </div>
+
+<script src="blackjack.js"></script>
+</body>
+</html>
