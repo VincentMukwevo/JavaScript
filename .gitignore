@@ -1,0 +1,15 @@
+# ==========================
+# OS Files
+# ==========================
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+*.lnk
+# ==========================
+# Environment / config
+# ==========================
+.env
+.env.local
+.env.*.local
