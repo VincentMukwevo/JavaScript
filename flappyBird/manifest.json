@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 3,
+    "version": "1.0",
+    "name": "Flappybird",
+    "author":"Vincent T Mukwevo",
+    "description": "A simple flappy bird game built using HTML, CSS and JavaScript",
+    "action": {
+        "default_icon": "./assets/flappybird.png",
+        "default_popup": "index.html"
+    }
+
+}
